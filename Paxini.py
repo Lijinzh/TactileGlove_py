@@ -8,7 +8,7 @@ import serial
 import time
 
 # 配置串口
-serial_port = 'COM5'  # 根据您的实际端口修改
+serial_port = 'COM22'  # 根据您的实际端口修改
 baud_rate = 2000000  # 设置波特率
 
 
@@ -19,7 +19,6 @@ def main():
 
     # 打开串口
     with serial.Serial(serial_port, baud_rate, timeout=1) as ser:
-        time.sleep(2)  # 等待Arduino重置
 
         while True:
             line = ser.readline()  # 读取一行数据

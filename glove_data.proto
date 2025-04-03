@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message Point3D {
+  sint32 x = 1; // x 坐标
+  sint32 y = 2; // y 坐标
+  sint32 z = 3; // z 坐标
+}
+// 每个传感器包含多个Point3D
+message TactileSensorData {
+  repeated Point3D points = 1;
+  // 这里将存储73个Point3D（编程时直接push 73个点即可）
+}
+// 整体包含5个传感器
+message AllSensorsData {
+  repeated TactileSensorData sensors = 1;
+  // 这里放5个TactileSensorData
+  repeated int32 resistor_sensors = 2;
+  // 这里有20个压敏电阻传感器的值
+}
