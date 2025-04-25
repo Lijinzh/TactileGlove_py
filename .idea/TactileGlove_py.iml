@@ -8,4 +8,8 @@
     <orderEntry type="module" module-name="TactileSGNet" />
     <orderEntry type="module" module-name="spikingjelly" />
   </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
 </module>

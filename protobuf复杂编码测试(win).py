@@ -68,6 +68,7 @@ def receive_protobuf_data(serial_port, frame_rate_tracker):
         print(traceback.format_exc())
 
 
+
 def print_sensor_data(all_sensors_data):
     print(f"传感器数量: {len(all_sensors_data.sensors)}")
 
