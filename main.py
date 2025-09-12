@@ -6,7 +6,7 @@ import matplotlib.animation as animation
 import time
 
 # 设置串口参数
-ser = serial.Serial('COM5', 115200, timeout=0.01)  # 请将 'COM3' 替换为您的实际串口号
+ser = serial.Serial('COM10', 115200, timeout=0.01)  # 请将 'COM3' 替换为您的实际串口号
 # ser = serial.Serial('COM7', 115200, timeout=0.01)  # 请将 'COM3' 替换为您的实际串口号
 
 num_rows = 6
