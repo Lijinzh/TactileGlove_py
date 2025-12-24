@@ -1,4 +1,4 @@
-# pose_visualizer.py
+# robot_gui_monitor.py
 # Description:
 # This script visualizes pre-computed, stable Euler angles sent from an ESP32.
 # It is the client counterpart to the firmware that uses ReefwingAHRS on-board

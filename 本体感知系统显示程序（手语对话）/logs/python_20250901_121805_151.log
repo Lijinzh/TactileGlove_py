@@ -1,0 +1,5 @@
+2025-09-01T12:18:05.153149Z[INFO][src\python\py_mod.rs:25] bc_stark_sdk version: 0.8.6
+2025-09-01T12:18:05.154157Z[INFO][src\stark\config.rs:30] Logging initialized with level: Info
+2025-09-01T12:18:05.154157Z[INFO][src\stark\config.rs:36] StarkSDK initialized, protocol_type: Modbus
+2025-09-01T12:18:07.198221Z[ERROR][src\python\py_mod.rs:215] Failed to open Modbus: 系统找不到指定的文件。
+2025-09-01T12:18:07.199223Z[CRITICAL][C:\Users\admin\Documents\ClionProject\TactileGlove_py\本体感知系统显示程序\main.py:52] Connection failed: Failed to open Modbus context: 系统找不到指定的文件。

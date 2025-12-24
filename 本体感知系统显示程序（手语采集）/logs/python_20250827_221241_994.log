@@ -1,0 +1,5 @@
+2025-08-27T22:12:41.996517Z[INFO][src\python\py_mod.rs:25] bc_stark_sdk version: 0.8.6
+2025-08-27T22:12:41.997519Z[INFO][src\stark\config.rs:30] Logging initialized with level: Info
+2025-08-27T22:12:41.997519Z[INFO][src\stark\config.rs:36] StarkSDK initialized, protocol_type: Modbus
+2025-08-27T22:12:44.158159Z[INFO][C:\Users\admin\Documents\ClionProject\TactileGlove_py\本体感知系统显示程序\main.py:70] Right: DeviceInfo { sku_type: MediumRight, serial_number: BCXER1233J2500003, firmware_version: 0.0.5 }
+2025-08-27T22:12:44.226158Z[INFO][C:\Users\admin\Documents\ClionProject\TactileGlove_py\本体感知系统显示程序\main.py:124] Set positions: [0, 0, 0, 0, 0, 0]
